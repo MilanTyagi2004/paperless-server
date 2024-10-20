@@ -1,4 +1,4 @@
-package com.paperless.paperless_server;
+package com.paperless;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

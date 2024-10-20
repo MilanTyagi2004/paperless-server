@@ -1,4 +1,4 @@
-package com.paperless.paperless_server;
+package com.paperless;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
