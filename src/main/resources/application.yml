@@ -1,0 +1,59 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 512MB
+      max-request-size: 512MB
+  datasource:
+    name: milan
+    url: jdbc:mysql://localhost:3306/pl_master
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ewc@gmail.com
+    password: sdfg kzmv asdd qusg
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls :
+            enable : true
+
+pl:
+  email:
+    senderName:Galgotia
+  website:
+    url: https://paper-less.app/
+
+jwt:
+  token:
+    secret: SFACASDFACASDFASFASFDAFASFASDAADSCSDFADCVSGCFVADXCcadwavfsfarvf
+    expiration : 604800000
+    urlexpiration : 1800000
+
+
+cloud:
+  aws:
+    credential:
+      accessKey: AKIAVPOIJ72NHYR4D2GS
+      secretKey: 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
+      region: ap-south-1m
+server:
+  port: 8443
+
+cors:
+  allowed-origins: "*"
+  allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+  allowed-headers: "*"
+  allowCredentials: true
+  max-age: 3600
