@@ -1,0 +1,50 @@
+.transactions {
+    margin-top: 30px;
+    background-color: #2D3748;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactions h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #A0AEC0;
+  }
+  
+  .transactions th,
+  .transactions td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4A5568;
+  }
+  
+  .transactions th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #CBD5E0;
+  }
+  
+  .transactions .status {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .transactions .status.completed {
+    color: #48BB78; /* Green */
+  }
+  
+  .transactions .status.pending {
+    color: #ECC94B; /* Yellow */
+  }
+  
+  .transactions .status.failed {
+    color: #F56565; /* Red */
+  }
+  
